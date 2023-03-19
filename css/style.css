@@ -207,7 +207,7 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
-  padding: 0;
+  padding: 40px 0;
   /* background: url(../img/intro-bg.jpg) center center no-repeat; */
   background: linear-gradient(to right, #98930f 0%, #d1bd0b 100%);
   -webkit-background-size: cover;
