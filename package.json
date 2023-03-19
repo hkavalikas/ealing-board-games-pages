@@ -1,6 +1,7 @@
 {
-  "name": "landingpage-react-template",
+  "name": "ealing-board-games",
   "private": true,
+  "homepage": "https://HarryKav.github.io/ealing-board-games-pages",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
