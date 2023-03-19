@@ -209,7 +209,7 @@ a:focus,
   width: 100%;
   padding: 0;
   /* background: url(../img/intro-bg.jpg) center center no-repeat; */
-  background-color: #ffee00;
+  background: linear-gradient(to right, #98930f 0%, #d1bd0b 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -458,29 +458,29 @@ header .intro-text {
   color: #888;
 }
 /* Contact Section */
-#contact {
+#aboutUs {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #98930f 0%, #d1bd0b 100%);
   color: rgba(255, 255, 255, 0.75);
 }
-/* #contact {
+/* #aboutUs {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 } */
-#contact .section-title {
+#aboutUs .section-title {
   margin-bottom: 40px;
 }
-#contact .section-title p {
+#aboutUs .section-title p {
   font-size: 16px;
 }
-#contact h2 {
+#aboutUs h2 {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#contact .section-title h2::after {
+#aboutUs .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -489,26 +489,26 @@ header .intro-text {
   bottom: 0;
   left: 30px;
 }
-#contact h3 {
+#aboutUs h3 {
   color: #fff;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
 }
-#contact form {
+#aboutUs form {
   padding-top: 20px;
 }
-#contact .text-danger {
+#aboutUs .text-danger {
   color: #cc0033;
   text-align: left;
 }
-#contact .btn-custom {
+#aboutUs .btn-custom {
   margin: 30px 0;
   background: transparent;
   border: 2px solid #fff;
 }
-#contact .btn-custom:hover {
+#aboutUs .btn-custom:hover {
   color: #1f386e;
   background: #fff;
 }
@@ -518,7 +518,7 @@ label {
   font-family: "Open Sans", sans-serif;
   float: left;
 }
-#contact .form-control {
+#aboutUs .form-control {
   display: block;
   width: 100%;
   padding: 6px 12px;
@@ -535,7 +535,7 @@ label {
   -o-transition: none;
   transition: none;
 }
-#contact .form-control:focus {
+#aboutUs .form-control:focus {
   border-color: #999;
   outline: 0;
   -webkit-box-shadow: transparent;
@@ -553,28 +553,28 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#contact .contact-item {
+#aboutUs .contact-item {
   margin: 20px 0;
 }
-#contact .contact-item span {
+#aboutUs .contact-item span {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
   display: block;
 }
-#contact .contact-item i.fa {
+#aboutUs .contact-item i.fa {
   margin-right: 10px;
 }
-#contact .social {
+#aboutUs .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
   margin-top: 50px;
   text-align: center;
 }
-#contact .social ul li {
+#aboutUs .social ul li {
   display: inline-block;
   margin: 0 20px;
 }
-#contact .social i.fa {
+#aboutUs .social i.fa {
   font-size: 22px;
   width: 48px;
   height: 48px;
@@ -584,7 +584,7 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
-#contact .social i.fa:hover {
+#aboutUs .social i.fa:hover {
   color: #608dfd;
   background: #fff;
 }
