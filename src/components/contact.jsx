@@ -21,7 +21,7 @@ export const Contact = (props) => {
   };
   return (
     <div>
-      <div id="contact">
+      <div id="aboutUs">
         <div className="container">
           <div className="col-md-8">
             <div className="row">
@@ -31,7 +31,7 @@ export const Contact = (props) => {
                 A bunch of people that just like to sit around and play board games. 
                 </p>
                 <p>
-                We are a community of beginners and veterans alike.\n
+                We are a community of beginners and veterans alike.
                 If you are interested in board games, whether it be learning or playing, we have a seat for you. 
                 </p>
                 <p>
