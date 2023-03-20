@@ -44,13 +44,17 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #000000;
+  color: #333;
+  font-weight: 400;
+}
+a:active {
+  color: #ffffff;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
+  color: #ffffff;
 }
 ul,
 ol {
@@ -507,10 +511,10 @@ header .intro-text {
 #aboutUs .btn-custom {
   margin: 30px 0;
   background: transparent;
-  border: 2px solid #000000;
+  border: 2px solid #333;
 }
 #aboutUs .btn-custom:hover {
-  color: #1f386e;
+  color: #333;
   background: #fff;
 }
 label {
