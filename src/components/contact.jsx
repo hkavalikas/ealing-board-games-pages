@@ -81,11 +81,15 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                <div id="success"></div>*/
+              // </form> }
+              
+              <form action={props.data ? props.data.facebook : "/"}>
+                    <button type="submit" className="btn btn-custom btn-lg">
+                   Find us on Facebook
                 </button>
-              </form> */}
+              </form>
+  }
             </div>
           </div>
           { <div className="col-md-3 col-md-offset-1 contact-info">
@@ -121,7 +125,7 @@ export const Contact = (props) => {
               </p>
             </div>
           </div> }
-          <div className="col-md-12">
+          {/* <div className="col-md-12">
             <div className="row">
               <div className="social">
                 <ul>
@@ -133,16 +137,16 @@ export const Contact = (props) => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div id="footer">
+      {/* <div id="footer">
         <div className="container text-center">
           <p>
             &copy; 2023 Ealing Board Games Page
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
