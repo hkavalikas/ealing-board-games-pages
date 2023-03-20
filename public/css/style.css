@@ -37,13 +37,14 @@ h5 {
 }
 p {
   font-size: 25px;
+  color: #333;
 }
 p.intro {
   margin: 12px 0 0;
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: #000000;
   font-weight: 400;
 }
 a:hover,
@@ -165,7 +166,7 @@ hr {
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   padding: 14px 34px;
@@ -474,7 +475,7 @@ header .intro-text {
   font-size: 25px;
 }
 #aboutUs h2 {
-  color: #fff;
+  color: #333;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -494,6 +495,7 @@ header .intro-text {
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
+  color: #333;
 }
 #aboutUs form {
   padding-top: 20px;
@@ -556,7 +558,7 @@ label {
   margin: 20px 0;
 }
 #aboutUs .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #333;
   margin-bottom: 10px;
   display: block;
   font-size: 25px;
