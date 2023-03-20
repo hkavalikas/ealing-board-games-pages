@@ -21,7 +21,7 @@ h2 {
   color: #333;
 }
 h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   color: #333;
 }
@@ -36,7 +36,7 @@ h5 {
   line-height: 20px;
 }
 p {
-  font-size: 15px;
+  font-size: 25px;
 }
 p.intro {
   margin: 12px 0 0;
@@ -160,7 +160,7 @@ hr {
   left: 50%;
 }
 .section-title p {
-  font-size: 18px;
+  font-size: 60px;
 }
 .btn-custom {
   font-family: "Raleway", sans-serif;
@@ -207,9 +207,8 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
-  padding: 41px 0;
   /* background: url(../img/intro-bg.jpg) center center no-repeat; */
-  background: linear-gradient(to right, #98930f 0%, #d1bd0b 100%);
+  background: linear-gradient(to right, #CCAA1F 0%, #FFD527 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -460,7 +459,7 @@ header .intro-text {
 /* Contact Section */
 #aboutUs {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #98930f 0%, #d1bd0b 100%);
+  background: linear-gradient(to right, #CCAA1F 0%, #FFD527 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 /* #aboutUs {
@@ -472,7 +471,7 @@ header .intro-text {
   margin-bottom: 40px;
 }
 #aboutUs .section-title p {
-  font-size: 16px;
+  font-size: 25px;
 }
 #aboutUs h2 {
   color: #fff;
@@ -560,9 +559,11 @@ label {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
   display: block;
+  font-size: 25px;
 }
 #aboutUs .contact-item i.fa {
   margin-right: 10px;
+  font-size: 25px;
 }
 #aboutUs .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
@@ -575,7 +576,6 @@ label {
   margin: 0 20px;
 }
 #aboutUs .social i.fa {
-  font-size: 22px;
   width: 48px;
   height: 48px;
   padding: 12px 0;
