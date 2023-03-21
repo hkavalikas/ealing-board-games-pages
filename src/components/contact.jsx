@@ -84,11 +84,14 @@ export const Contact = (props) => {
                 <div id="success"></div>*/
               // </form> }
               
-              <form action={props.data ? props.data.facebook : "/"}>
-                    <button type="submit" className="btn btn-custom btn-lg">
+              <form>
+                    <button type="submit" formAction= {props.data ? props.data.facebook : "/"} className="btn btn-custom btn-lg">
                    Find us on Facebook
                 </button>
-              </form>
+                <button type="submit" formAction= {props.data ? props.data.ealingProject : "/"} className="btn btn-custom btn-lg">
+       Ealing Project
+                 </button>
+              </form> 
   }
             </div>
           </div>
@@ -99,7 +102,9 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
+                <a href="https://goo.gl/maps/PpYR2kBD6JZxhzbz6">
                 {props.data ? props.data.address : "loading"}
+                </a>
               </p>
             </div>
             <div className="contact-item">
