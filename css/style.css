@@ -311,6 +311,10 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+#aboutUs em sub {
+  line-height: 24px;
+  margin: 30px 0;
+}
 /* Services Section */
 #services {
   padding: 100px 0;
