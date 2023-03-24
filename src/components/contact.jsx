@@ -32,10 +32,14 @@ export const Contact = (props) => {
                 </p>
                 <p>
                 We are a community of beginners and veterans alike.
-                If you are interested in board games, whether it be learning or playing, we have a seat for you. 
+                If you are interested in board games, whether it be learning or playing, we have a seat for you.  
                 </p>
                 <p>
                 Come say hello!
+                </p>
+                <p><em>
+                <sub>You don't need a ticket to attend these events.</sub>
+                </em>
                 </p>
               </div>
               {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
