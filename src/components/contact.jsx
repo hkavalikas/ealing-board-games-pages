@@ -28,17 +28,16 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>About us</h2>
                 <p>
-                A bunch of people that just like to sit around and play board games. 
+                We are a community of beginners and veterans alike; a bunch of people that just like to sit around and play board games. If you are interested in board games, whether it be learning or playing, we have a seat for you. Come say hello!
                 </p>
                 <p>
-                We are a community of beginners and veterans alike.
-                If you are interested in board games, whether it be learning or playing, we have a seat for you.  
+                We meet <b>every Wednesday from 18:30, at Ealing Project</b>! It's free to attend and there's no need to book, just turn up! Please arrive between 18:20-19:00, any later and it becomes harder to jump into a game.
                 </p>
-                <p>
-                Come say hello!
-                </p>
+
                 <p><em>
-                <sub>You don't need a ticket to attend these events.</sub>
+                <sub>               
+                The club and its events are first and foremost aimed at adults. <b>Children are welcome as long as they are supervised at all times by a parent or carer.</b> The organisers take no responsiblity or liability for unsupervised children. Please note that there could be games present that may not be suitable for children.
+                </sub>
                 </em>
                 </p>
               </div>
