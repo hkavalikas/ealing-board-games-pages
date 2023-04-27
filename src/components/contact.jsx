@@ -36,7 +36,7 @@ export const Contact = (props) => {
 
                 <p><em>
                 <sub>               
-                The club and its events are first and foremost aimed at adults. <b>Children are welcome as long as they are supervised at all times by a parent or carer.</b> The organisers take no responsiblity or liability for unsupervised children. Please note that there could be games present that may not be suitable for children.
+                The club and its events are first and foremost aimed at adults. <b>Children are welcome as long as they are supervised at all times by a parent or carer.</b> The organisers take no responsibility or liability for unsupervised children. Please note that there could be games present that may not be suitable for children.
                 </sub>
                 </em>
                 </p>
