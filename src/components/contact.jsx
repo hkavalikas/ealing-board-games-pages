@@ -91,9 +91,9 @@ export const Contact = (props) => {
                     <button type="submit" formAction= {props.data ? props.data.facebook : "/"} className="btn btn-custom btn-lg">
                    Find us on Facebook
                 </button>
-                <button type="submit" formAction= {props.data ? props.data.ealingProject : "/"} className="btn btn-custom btn-lg">
+                {/* <button type="submit" formAction= {props.data ? props.data.ealingProject : "/"} className="btn btn-custom btn-lg">
        Ealing Project
-                 </button>
+                 </button> */}
               </form> 
   }
             </div>
