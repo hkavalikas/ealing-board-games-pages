@@ -31,7 +31,8 @@ export const Contact = (props) => {
                 We are a community of beginners and veterans alike; a bunch of people that just like to sit around and play board games. If you are interested in board games, whether it be learning or playing, we have a seat for you. Come say hello!
                 </p>
                 <p>
-                We meet <b>every Wednesday from 18:30, at Ealing Project</b>! It's free to attend and there's no need to book, just turn up! Please arrive between 18:20-19:00, any later and it becomes harder to jump into a game.
+                We meet <b>weekly at Ealing Broadway</b> <em><sub>(check the <b>event calendar</b> for the specifics)</sub></em>,
+                it's free to attend and there's no need to book, just turn up! Please arrive between 18:20-19:00, any later and it becomes harder to jump into a game.
                 </p>
 
                 <p><em>
@@ -99,37 +100,46 @@ export const Contact = (props) => {
             </div>
           </div>
           { <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
               <h3>Contact Info</h3>
-              <p>
+            {/* <div className="contact-item">
+              { <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
                 <a href="https://goo.gl/maps/PpYR2kBD6JZxhzbz6">
                 {props.data ? props.data.address : "loading"}
                 </a>
-              </p>
+              </p> }
             </div>
-            <div className="contact-item">
-              {/* <p>
+            { <div className="contact-item">
+              { <p>
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
-              </p> */}
-                        <p>
+              </p> }
+                        { <p>
                 <span>
                   <i className="fa fa-clock-o"></i> Time
                 </span>{" "}
                 {props.data ? props.data.time : "loading"}
-              </p>
-            </div>
+              </p> }
+            </div> } */}
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
                 {<a href="mailto:ealingboardgames@gmail.com">{props.data ? props.data.email : "loading"}</a>
+                }
+              </p>
+            </div>
+            <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-calendar"></i> Event calendar
+                </span>{" "}
+                { <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffd731&ctz=Europe%2FLondon&showTitle=0&showNav=1&mode=AGENDA&hl=en_GB&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZWFsaW5nYm9hcmRnYW1lc0BnbWFpbC5jb20&color=%23cca400" width="300" height="400" frameborder="0" scrolling="no"></iframe>
                 }
               </p>
             </div>
@@ -155,7 +165,9 @@ export const Contact = (props) => {
             &copy; 2023 Ealing Board Games Page
           </p>
         </div>
-      </div> */}
+      </div> */
+    
+      }
     </div>
   );
 };
