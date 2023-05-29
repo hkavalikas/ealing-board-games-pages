@@ -31,8 +31,8 @@ export const Contact = (props) => {
                 We are a community of beginners and veterans alike; a bunch of people that just like to sit around and play board games. If you are interested in board games, whether it be learning or playing, we have a seat for you. Come say hello!
                 </p>
                 <p>
-                We meet <b>weekly at Ealing Broadway</b> <em><sub>(check the <b>event calendar</b> for the specifics)</sub></em>,
-                it's free to attend and there's no need to book, just turn up! Please arrive between 18:20-19:00, any later and it becomes harder to jump into a game.
+                We meet <b>weekly at Ealing Broadway</b>, most events are free to attend but please refer to the <b>events calendar</b> for the specifics.
+                Please arrive between 18:20-19:00, any later and it becomes harder to jump into a game, there's no need to book, just turn up!
                 </p>
 
                 <p><em>
