@@ -137,7 +137,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-calendar"></i> Event calendar
+                  <i className="fa fa-calendar"></i> Events calendar
                 </span>{" "}
                 { <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffd731&ctz=Europe%2FLondon&showTitle=0&showNav=1&mode=AGENDA&hl=en_GB&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZWFsaW5nYm9hcmRnYW1lc0BnbWFpbC5jb20&color=%23cca400" width="300" height="400" frameborder="0" scrolling="no"></iframe>
                 }
