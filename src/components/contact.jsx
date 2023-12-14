@@ -31,7 +31,7 @@ export const Contact = (props) => {
                         </div>
                     </div>
                     {<div className="col-md-3 col-md-offset-1 contact-info">
-                        <h3>Contact Info</h3>
+                        <h3><b>Contact Info</b></h3>
                         <div className="contact-item">
                             <p>
                 <span>
@@ -47,10 +47,15 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-calendar"></i> Events calendar
                 </span>{" "}
-                                {<iframe
-                                    src="https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffd731&ctz=Europe%2FLondon&showTitle=0&showNav=1&mode=AGENDA&hl=en_GB&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZWFsaW5nYm9hcmRnYW1lc0BnbWFpbC5jb20&color=%23cca400"
-                                    title="calendar"
-                                    width="300" height="400" frameBorder="0" scrolling="no"></iframe>
+                                {
+                                    <iframe
+                                        src="https://calendar.google.com/calendar/embed?height=400&wkst=2&ctz=Europe%2FLondon&showTitle=0&showNav=0&mode=AGENDA&hl=en_GB&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZWFsaW5nYm9hcmRnYW1lc0BnbWFpbC5jb20&color=%23cca400"
+                                        title="calendar"
+                                        width="300" height="400"
+                                        frameBorder="0"
+                                        scrolling="no"
+                                    >
+                                    </iframe>
                                 }
                             </p>
                         </div>
