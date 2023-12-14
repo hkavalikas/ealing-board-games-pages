@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import introVideo from '../animation-loop.mp4';
 
-export const Header = (props) => {
+export const Header = () => {
     useEffect(() => {
         const video = document.querySelector('.intro video');
 
@@ -22,7 +22,6 @@ export const Header = (props) => {
         <header id="header">
             <div className="intro">
                 <video className='intro' autoPlay loop muted>
-                    {/* Remove the 'src' attribute from here */}
                 </video>
             </div>
         </header>
