@@ -1,14 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.525117b0.css",
-    "main.js": "./static/js/main.03c1908c.js",
-    "static/media/animation-loop.mp4": "./static/media/animation-loop.4f45ec0c2ddead710522.mp4",
-    "index.html": "./index.html",
-    "main.525117b0.css.map": "./static/css/main.525117b0.css.map",
-    "main.03c1908c.js.map": "./static/js/main.03c1908c.js.map"
+    "main.js": "/hkavalikas/ealing-board-games-pages/static/js/main.44ff5a33.js",
+    "static/media/animation-loop.mp4": "/hkavalikas/ealing-board-games-pages/static/media/animation-loop.4f45ec0c2ddead710522.mp4",
+    "index.html": "/hkavalikas/ealing-board-games-pages/index.html",
+    "main.44ff5a33.js.map": "/hkavalikas/ealing-board-games-pages/static/js/main.44ff5a33.js.map"
   },
   "entrypoints": [
-    "static/css/main.525117b0.css",
-    "static/js/main.03c1908c.js"
+    "static/js/main.44ff5a33.js"
   ]
 }
