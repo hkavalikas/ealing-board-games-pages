@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import introVideo from '../animation-loop.mp4';
+import introVideo from '../resources/video/animation-loop.mp4';
 
 export const Header = () => {
     useEffect(() => {
