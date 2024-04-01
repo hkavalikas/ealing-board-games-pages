@@ -1,7 +1,7 @@
 {
   "name": "ealing-board-games",
   "version": "1.0.0",
-  "homepage": "https://github.com/hkavalikas/ealing-board-games-pages",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "gh-pages": "^5.0.0",
