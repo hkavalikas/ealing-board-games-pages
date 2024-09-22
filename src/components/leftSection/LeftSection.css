@@ -1,0 +1,82 @@
+.left-section {
+    background-color: #f7cc4d;
+    color: #000;
+    padding: 40px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.left-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.left-section .disclaimer {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #444;
+    margin-top: 20px;
+}
+
+.join-button {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.join-button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.background-video {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .left-section {
+        padding: 20px;
+    }
+
+    .left-section h1 {
+        font-size: 2rem;
+    }
+
+    .left-section p {
+        font-size: 1rem;
+    }
+
+    .join-button {
+        padding: 8px 16px;
+    }
+
+    .background-video {
+        width: 75%;
+    }
+}

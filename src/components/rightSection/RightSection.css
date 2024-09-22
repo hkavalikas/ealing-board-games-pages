@@ -1,0 +1,74 @@
+.right-section {
+    background-color: #f7cc4d;
+    padding: 40px;
+    color: #000;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    max-width: 100%;
+    border-radius: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #1e1e1e;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.email-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.email-section span, .calendar-section span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.email-section a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+}
+
+.email-section a:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.calendar-section iframe {
+    margin-top: 2px;
+    border: 1px solid #ccc;
+}
