@@ -68,7 +68,29 @@
     border-color: #000;
 }
 
-.calendar-section iframe {
+.calendar-iframe {
     margin-top: 2px;
     border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .calendar-iframe {
+        max-width: 280px;
+        height: 350px;
+    }
+    
+    .right-section h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .calendar-iframe {
+        max-width: 100%;
+        height: 300px;
+    }
 }
