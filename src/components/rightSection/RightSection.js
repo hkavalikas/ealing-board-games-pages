@@ -27,6 +27,8 @@ const RightSection = () => {
                         style={{ border: 'none' }}
                         scrolling="no"
                         aria-label="Ealing Board Games Club Events Calendar"
+                        allow="fullscreen"
+                        loading="lazy"
                     >
                     </iframe>
                 </div>
