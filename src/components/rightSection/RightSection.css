@@ -3,7 +3,6 @@
     padding: 40px;
     color: #000;
     text-align: center;
-    font-family: 'Arial', sans-serif;
     max-width: 100%;
     border-radius: 0;
     flex: 1;
@@ -29,7 +28,7 @@
 .email-section {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -48,24 +47,23 @@
     margin-bottom: 5px;
 }
 
-.email-section a {
-    color: #000;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: #fff;
-    border: 2px solid #000;
-    border-radius: 5px;
-    padding: 10px 20px;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-    width: fit-content;
+.calendar-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    min-height: 400px;
 }
 
-.email-section a:hover {
-    background-color: #000;
-    color: #fff;
-    border-color: #000;
+.calendar-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: #f0e6c0;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #666;
 }
 
 .calendar-iframe {
@@ -78,23 +76,41 @@
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
+    .calendar-wrapper {
+        max-width: 280px;
+        min-height: 350px;
+    }
+
+    .calendar-loading {
+        height: 350px;
+    }
+
     .calendar-iframe {
         max-width: 280px;
         height: 350px;
     }
-    
+
     .right-section h2 {
         font-size: 1.6rem;
     }
 }
 
 @media (max-width: 768px) {
+    .calendar-wrapper {
+        max-width: 100%;
+        min-height: 300px;
+    }
+
+    .calendar-loading {
+        height: 300px;
+    }
+
     .calendar-iframe {
         max-width: 100%;
         height: 300px;
         min-height: 250px;
     }
-    
+
     .calendar-section {
         width: 100%;
         max-width: 100%;
