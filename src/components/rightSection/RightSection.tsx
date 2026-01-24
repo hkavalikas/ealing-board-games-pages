@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { FC, useState } from 'react';
 import './RightSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faCalendar } from '@fortawesome/free-solid-svg-icons';
 
-const RightSection: React.FC = () => {
+const RightSection: FC = () => {
     const [calendarLoaded, setCalendarLoaded] = useState<boolean>(false);
 
     return (
@@ -36,7 +36,8 @@ const RightSection: React.FC = () => {
                             style={{ border: 'none' }}
                             scrolling="no"
                             aria-label="Ealing Board Games Club Events Calendar"
-                            allow="fullscreen"
+                            allowFullScreen
+                            loading="lazy"
                             onLoad={() => setCalendarLoaded(true)}
                         />
                     </div>

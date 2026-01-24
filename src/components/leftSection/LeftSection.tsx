@@ -1,8 +1,9 @@
+import { FC } from 'react';
 import './LeftSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
-const LeftSection: React.FC = () => {
+const LeftSection: FC = () => {
     return (
         <div className="left-section">
             <video

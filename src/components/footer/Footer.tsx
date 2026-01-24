@@ -1,6 +1,7 @@
+import { FC } from 'react';
 import './Footer.css';
 
-const Footer: React.FC = () => {
+const Footer: FC = () => {
     return (
         <footer>
             <p>Made by The Ealing Boardgames Club 🎲</p>

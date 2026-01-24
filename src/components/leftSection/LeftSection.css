@@ -31,7 +31,10 @@
 }
 
 .left-section .btn-primary {
-    margin-top: 20px;
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .background-video {

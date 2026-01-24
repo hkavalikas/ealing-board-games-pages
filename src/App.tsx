@@ -1,8 +1,9 @@
+import { FC } from 'react';
 import HomePage from './pages/HomePage';
 import ErrorBoundary from './components/ErrorBoundary';
 import './styles.css';
 
-const App: React.FC = () => {
+const App: FC = () => {
     return (
         <ErrorBoundary>
             <div className="app-container">
