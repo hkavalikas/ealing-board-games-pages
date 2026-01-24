@@ -4,24 +4,31 @@ A modern, responsive website for the Ealing Boardgames' Club, a non-profit commu
 
 **Live Site:** https://ealingboardgames.co.uk
 
-![Ealing Boardgames' Club](public/resources/img/logo-full-background.png)
+![Ealing Boardgames' Club](public/resources/img/logo-full-background.webp)
 
 ## About
 
 Ealing Boardgames' Club is a vibrant community bringing together board game enthusiasts in West London. Our website provides information about events, meetups, and ways to connect with fellow gamers in the area.
 
+## Tech Stack
+
+- React 18 with TypeScript
+- Create React App (react-scripts)
+- FontAwesome icons
+- GitHub Pages (deployment via gh-pages)
+
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
-- npm or yarn package manager
+- Node.js (version 18 or higher)
+- npm package manager
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ealing-board-games-pages.git
+   git clone https://github.com/hkavalikas/ealing-board-games-pages.git
    cd ealing-board-games-pages
    ```
 
@@ -37,20 +44,29 @@ Ealing Boardgames' Club is a vibrant community bringing together board game enth
 
 The application will open in your browser at `http://localhost:3000`.
 
+### Deployment
+
+To deploy to GitHub Pages:
+```bash
+npm run deploy
+```
+
+This will build the project and publish to the `gh-pages` branch.
+
 ## Project Structure
 
 ```
 src/
 ├── components/
-│   ├── ErrorBoundary.js
+│   ├── ErrorBoundary.tsx
 │   ├── footer/
 │   ├── layout/
 │   ├── leftSection/
 │   └── rightSection/
 ├── pages/
-│   └── HomePage.js
-├── App.js
-├── index.js
+│   └── HomePage.tsx
+├── App.tsx
+├── index.tsx
 └── styles.css
 ```
 
