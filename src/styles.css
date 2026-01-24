@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -19,30 +23,6 @@ body, html {
     overflow: hidden;
 }
 
-.left-section, .right-section {
-    padding: 40px;
-    box-sizing: border-box;
-}
-
-.left-section {
-    flex: 3;
-    background-color: #f7cc4d;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.right-section {
-    flex: 1;
-    background-color: #f7cc4d;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
 
 .contact-info {
     margin-top: 20px;
@@ -68,9 +48,12 @@ body, html {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus-visible {
     background-color: #000;
     color: #fff;
+    outline: 2px solid #000;
+    outline-offset: 2px;
 }
 
 footer {
