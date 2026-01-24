@@ -24,16 +24,6 @@ body, html {
 }
 
 
-.contact-info {
-    margin-top: 20px;
-}
-
-.calendar-section iframe {
-    margin-top: 10px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-}
-
 .btn-primary {
     color: #000;
     text-decoration: none;

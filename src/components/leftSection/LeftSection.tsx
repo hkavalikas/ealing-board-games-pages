@@ -5,7 +5,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const LeftSection: FC = () => {
     return (
-        <div className="left-section">
+        <section className="left-section">
             <video
                 className="background-video"
                 autoPlay
@@ -47,7 +47,7 @@ const LeftSection: FC = () => {
             >
                 <FontAwesomeIcon icon={faFacebook} aria-hidden="true" /> Find us on Facebook
             </a>
-        </div>
+        </section>
     );
 };
 

@@ -36,7 +36,9 @@ class ErrorBoundary extends Component<PropsWithChildren, ErrorBoundaryState> {
                     <h1>Oops! Something went wrong</h1>
                     <p>We're sorry, but something unexpected happened. Please try refreshing the page.</p>
                     <button
+                        type="button"
                         onClick={() => window.location.reload()}
+                        aria-label="Refresh the page"
                         style={{
                             backgroundColor: '#fff',
                             color: '#000',

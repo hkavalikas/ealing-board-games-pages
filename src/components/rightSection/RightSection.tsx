@@ -5,10 +5,9 @@ import { faEnvelope, faCalendar } from '@fortawesome/free-solid-svg-icons';
 
 const RightSection: FC = () => {
     const [calendarLoaded, setCalendarLoaded] = useState<boolean>(false);
-    const [calendarError, setCalendarError] = useState<boolean>(false);
 
     return (
-        <div className="right-section">
+        <section className="right-section">
             <h2>Contact Info</h2>
             <div className="contact-info">
                 <div className="email-section">
@@ -25,32 +24,26 @@ const RightSection: FC = () => {
                 <div className="calendar-section">
                     <span><FontAwesomeIcon icon={faCalendar} aria-hidden="true" /> Events calendar</span>
                     <div className="calendar-wrapper">
-                        {!calendarLoaded && !calendarError && (
+                        {!calendarLoaded && (
                             <div className="calendar-loading" aria-live="polite">
                                 Loading calendar...
-                            </div>
-                        )}
-                        {calendarError && (
-                            <div className="calendar-loading" aria-live="polite">
-                                Unable to load calendar.
                             </div>
                         )}
                         <iframe
                             src="https://calendar.google.com/calendar/embed?height=400&wkst=2&ctz=Europe%2FLondon&showTitle=0&showNav=0&mode=AGENDA&hl=en_GB&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=ZWFsaW5nYm9hcmRnYW1lc0BnbWFpbC5jb20&color=%23cca400"
                             title="Ealing Board Games Club Events Calendar"
                             className={`calendar-iframe ${calendarLoaded ? 'calendar-loaded' : 'calendar-hidden'}`}
-                            style={{ border: 'none', overflow: 'hidden' }}
+                            style={{ overflow: 'hidden' }}
                             aria-label="Ealing Board Games Club Events Calendar"
                             sandbox="allow-scripts allow-same-origin allow-popups"
                             allowFullScreen
                             loading="lazy"
                             onLoad={() => setCalendarLoaded(true)}
-                            onError={() => setCalendarError(true)}
                         />
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

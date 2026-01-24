@@ -81,7 +81,7 @@
 
 .calendar-iframe {
     margin-top: 2px;
-    border: 1px solid #ccc;
+    border: none;
     width: 100%;
     max-width: 300px;
     height: 400px;
