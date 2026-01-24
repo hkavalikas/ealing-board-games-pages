@@ -12,7 +12,7 @@ const LeftSection: FC = () => {
                 loop
                 muted
                 playsInline
-                preload="auto"
+                preload="metadata"
                 aria-label="Board game animation"
             >
                 <source src="/resources/video/animation-loop.mp4" type="video/mp4" />

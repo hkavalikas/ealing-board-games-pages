@@ -34,7 +34,6 @@ const RightSection: FC = () => {
                             title="Ealing Board Games Club Events Calendar"
                             className={`calendar-iframe ${calendarLoaded ? 'calendar-loaded' : 'calendar-hidden'}`}
                             style={{ overflow: 'hidden' }}
-                            aria-label="Ealing Board Games Club Events Calendar"
                             sandbox="allow-scripts allow-same-origin allow-popups"
                             allowFullScreen
                             loading="lazy"
