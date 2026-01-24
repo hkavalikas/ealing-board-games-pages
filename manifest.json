@@ -1,6 +1,7 @@
 {
-  "short_name": "Ealing Boardgames Club",
-  "name": "Ealing Broadway Boardgames Club",
+  "short_name": "Ealing Board Games",
+  "name": "Ealing Board Games Club",
+  "description": "A welcoming community for board game enthusiasts in West London. Weekly meetups at Ealing Broadway.",
   "icons": [
     {
       "src": "resources/img/favicon.ico",
@@ -10,6 +11,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#f5c232",
-  "background_color": "#f5c232"
+  "theme_color": "#f7cc4d",
+  "background_color": "#f7cc4d"
 }
