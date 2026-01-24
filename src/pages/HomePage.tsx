@@ -1,17 +1,17 @@
-import React from 'react';
+import { FC } from 'react';
 import Layout from '../components/layout/Layout';
 import LeftSection from '../components/leftSection/LeftSection';
 import RightSection from '../components/rightSection/RightSection';
 import Footer from '../components/footer/Footer';
 
-const HomePage = () => {
+const HomePage: FC = () => {
     return (
         <>
             <Layout>
-                <LeftSection/>
-                <RightSection/>
+                <LeftSection />
+                <RightSection />
             </Layout>
-            <Footer/>
+            <Footer />
         </>
     );
 };

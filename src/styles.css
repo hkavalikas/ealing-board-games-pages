@@ -1,7 +1,11 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     height: 100%;
     overflow-x: hidden;
 }
@@ -16,43 +20,30 @@ body, html {
     flex: 1;
     display: flex;
     justify-content: space-between;
-    height: 100vh;
     overflow: hidden;
 }
 
-.left-section, .right-section {
-    padding: 40px;
-    box-sizing: border-box;
-}
 
-.left-section {
-    flex: 3;
-    background-color: #f7cc4d;
+.btn-primary {
     color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.right-section {
-    flex: 1;
-    background-color: #f7cc4d;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.contact-info {
-    margin-top: 20px;
-}
-
-.calendar-section iframe {
-    margin-top: 10px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
+.btn-primary:hover,
+.btn-primary:focus-visible {
+    background-color: #000;
+    color: #fff;
+    outline: 2px solid #000;
+    outline-offset: 2px;
 }
 
 footer {
@@ -67,20 +58,24 @@ footer {
     .left-section, .right-section {
         padding: 30px;
     }
-    
+
     .left-section h1 {
         font-size: 2.2rem;
     }
-    
+
     .background-video {
         width: 60%;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
     }
 }
 
 @media (max-width: 768px) {
     .layout {
         flex-direction: column;
-        height: auto;
+        overflow-y: auto;
     }
 
     .left-section, .right-section {
@@ -91,6 +86,10 @@ footer {
     .left-section, .right-section {
         align-items: center;
         text-align: center;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
     }
 }
 

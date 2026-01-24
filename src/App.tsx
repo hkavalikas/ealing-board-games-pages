@@ -1,16 +1,15 @@
-import React from 'react';
+import { FC } from 'react';
 import HomePage from './pages/HomePage';
 import ErrorBoundary from './components/ErrorBoundary';
-import './styles.css';
 
-function App() {
+const App: FC = () => {
     return (
         <ErrorBoundary>
             <div className="app-container">
-                <HomePage/>
+                <HomePage />
             </div>
         </ErrorBoundary>
     );
-}
+};
 
 export default App;

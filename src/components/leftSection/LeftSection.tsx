@@ -1,21 +1,21 @@
-import React from 'react';
+import { FC } from 'react';
 import './LeftSection.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faFacebook} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
-const LeftSection = () => {
+const LeftSection: FC = () => {
     return (
-        <div className="left-section">
-            <video 
-                className="background-video" 
-                autoPlay 
-                loop 
-                muted 
+        <section className="left-section">
+            <video
+                className="background-video"
+                autoPlay
+                loop
+                muted
                 playsInline
                 preload="metadata"
                 aria-label="Board game animation"
             >
-                <source src="/resources/video/animation-loop.mp4" type="video/mp4"/>
+                <source src="/resources/video/animation-loop.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 
@@ -38,16 +38,16 @@ const LeftSection = () => {
                 The organisers take no responsibility or liability for unsupervised children.
                 Please note that there could be games present that may not be suitable for children.
             </p>
-            <a 
-                className="join-button" 
-                href="https://www.facebook.com/groups/ealingboardgames" 
+            <a
+                className="btn-primary"
+                href="https://www.facebook.com/groups/ealingboardgames"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Join Ealing Board Games Club on Facebook"
             >
                 <FontAwesomeIcon icon={faFacebook} aria-hidden="true" /> Find us on Facebook
             </a>
-        </div>
+        </section>
     );
 };
 

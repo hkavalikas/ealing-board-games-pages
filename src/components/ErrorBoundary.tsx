@@ -1,20 +1,24 @@
-import React from 'react';
+import React, { Component, ErrorInfo, PropsWithChildren } from 'react';
 
-class ErrorBoundary extends React.Component {
-    constructor(props) {
+interface ErrorBoundaryState {
+    hasError: boolean;
+}
+
+class ErrorBoundary extends Component<PropsWithChildren, ErrorBoundaryState> {
+    constructor(props: PropsWithChildren) {
         super(props);
         this.state = { hasError: false };
     }
 
-    static getDerivedStateFromError() {
+    static getDerivedStateFromError(_error: Error): ErrorBoundaryState {
         return { hasError: true };
     }
 
-    componentDidCatch(error, errorInfo) {
+    componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
         console.error('Error caught by boundary:', error, errorInfo);
     }
 
-    render() {
+    render(): React.ReactNode {
         if (this.state.hasError) {
             return (
                 <div style={{
@@ -25,14 +29,16 @@ class ErrorBoundary extends React.Component {
                     minHeight: '100vh',
                     backgroundColor: '#f7cc4d',
                     color: '#000',
-                    fontFamily: 'Arial, sans-serif',
+                    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif',
                     textAlign: 'center',
                     padding: '20px'
                 }}>
                     <h1>Oops! Something went wrong</h1>
                     <p>We're sorry, but something unexpected happened. Please try refreshing the page.</p>
-                    <button 
+                    <button
+                        type="button"
                         onClick={() => window.location.reload()}
+                        aria-label="Refresh the page"
                         style={{
                             backgroundColor: '#fff',
                             color: '#000',
