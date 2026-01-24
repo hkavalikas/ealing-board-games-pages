@@ -55,6 +55,10 @@
 }
 
 .calendar-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,6 +68,15 @@
     border-radius: 8px;
     font-size: 0.9rem;
     color: #666;
+    z-index: 1;
+}
+
+.calendar-hidden {
+    opacity: 0;
+}
+
+.calendar-loaded {
+    opacity: 1;
 }
 
 .calendar-iframe {
