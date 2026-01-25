@@ -27,9 +27,8 @@ const LeftSection: FC = () => {
                 Come say hello!
             </p>
             <p>
-                We meet weekly at Ealing Broadway, most events are free to attend but please
-                refer to the events calendar for the specifics. Please arrive between
-                18:20-19:00, any later and it becomes harder to jump into a game, there's
+                We meet weekly at Ealing Broadway, all events are free to attend but please
+                refer to the events calendar for the specifics, there's
                 no need to book, just turn up!
             </p>
             <p className="disclaimer">
