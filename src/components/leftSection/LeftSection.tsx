@@ -29,7 +29,7 @@ const LeftSection: FC = () => {
             <p>
                 We meet weekly at Ealing Broadway, all events are free to attend but please
                 refer to the events calendar for the specifics, there's
-                no need to book, just turn up!
+                no need to book, just turn up! If you’re coming along, just ask to join the WhatsApp group — we share live updates there, such as venue changes, and keep the chat going.
             </p>
             <p className="disclaimer">
                 The club and its events are first and foremost aimed at adults. Children
